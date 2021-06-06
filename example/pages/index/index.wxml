@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+<view style="text-align:left;padding:20px;">
+    <view>
+      当前URL: {{routerInfo.path}}
+    </view>
+    <view>
+      URL参数: {{routerInfo.query}}
+      URL参数: {{routerInfo.fullPath}}
+    </view>
+    <button bindtap="goLog">跳转到LOG</button>
+ 
+</view>
+</view>
