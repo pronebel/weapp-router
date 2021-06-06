@@ -1,5 +1,5 @@
 {
-  "name": "weapp-router",
+  "name": "weapp-router-vue",
   "version": "1.0.0",
   "description": "weapp router like vue",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pronebel/weapp-router.git"
+    "url": "git+https://github.com/pronebel/weapp-router-vue.git"
   },
   "keywords": [
     "weapp",
@@ -18,7 +18,7 @@
   "author": "nebel",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pronebel/weapp-router/issues"
+    "url": "https://github.com/pronebel/weapp-router-vue/issues"
   },
-  "homepage": "https://github.com/pronebel/weapp-router#readme"
+  "homepage": "https://github.com/pronebel/weapp-router-vue#readme"
 }
