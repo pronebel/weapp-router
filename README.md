@@ -4,7 +4,10 @@ router like vue
 ### 介绍
 
 - 不改变原生的实现，通过类库提供进行小程序的 vue-router的风格的使用
+
 - 实现了基本的方法，满足普通实现
+
+  
 
 
 
@@ -24,9 +27,17 @@ router like vue
 
 
 
+
+
+
+
 ### 更新日志
 
 - v1.0 实现基本功能
+
+
+
+
 
 
 
@@ -35,10 +46,15 @@ router like vue
 在页面的初始化的onLoad方法中实例化router，如果有自己封装  Page的工厂类，可以在工厂类中引入使用
 
 - Router： 实现的类vue-router的小程序路由封装类
+
 - RouterCreate(page): 给页面绑定 Router
 
-	`import {Router,RouterCreate} from 'weapp-router-vue'`
 	
+	
+	
+	
+	```
+	import {Router,RouterCreate} from 'weapp-router-vue'
 	Page({
 	    ...
 	    onLoad(){
@@ -54,6 +70,9 @@ router like vue
 	        })
 	    }
 	})
+	```
+	
+	
 
 
 
@@ -62,6 +81,8 @@ router like vue
 
 
 # API 参考
+
+
 ### 路有对象： this.\$router
 
 - 对象的命名 **$router**
@@ -149,7 +170,10 @@ router like vue
 
     完成解析后的 URL，包含查询参数和 hash 的完整路径。
 
-  
+
+
+
+
 
 ### TODO: 
 
